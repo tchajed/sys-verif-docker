@@ -12,3 +12,5 @@ tar -C /usr/local -xzf go.tar.gz
 
 # shellcheck disable=SC2016
 echo 'export PATH=$PATH:/usr/local/go/bin' >>/etc/profile
+
+/usr/local/go/bin/go install github.com/goose-lang/goose/cmd/goose@latest
