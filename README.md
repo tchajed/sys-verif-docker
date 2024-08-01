@@ -11,10 +11,10 @@ Install [Docker](https://www.docker.com/get-started/).
 
 Install [VS Code](https://code.visualstudio.com).
 
-Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers):
+Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers). The install page has a link that will open in VS Code.
 
-- **Option 1:** [install from within VS Code](vscode:extension/ms-vscode-remote.remote-containers)
-- **Option 2, command line install:** run `code --install-extension ms-vscode-remote.remote-containers`.
+- Alternate option 1: you can also install the extension from the Extensions sidebar item.
+- Alternate option 2: at the command line you can run `code --install-extension ms-vscode-remote.remote-containers`.
 
 The most important VS Code feature to learn is the [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette), accessed from View > Command Palette. The shortcut is worth learning (ctrl-shift-p, cmd-shift-p on macOS). The command palette gives search access to most editor functionality and shows keyboard shortcuts if you want to learn them.
 
