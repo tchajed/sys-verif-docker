@@ -322,6 +322,16 @@
                 "description": "∗"
               },
               {
+                "label": "wand",
+                "body": "-∗",
+                "description": "-∗"
+              },
+              {
+                "label": "named",
+                "body": "∷",
+                "description": "∷"
+              },
+              {
                 "label": "star",
                 "body": "∗",
                 "description": "∗"
