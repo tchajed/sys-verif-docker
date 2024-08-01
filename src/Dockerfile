@@ -18,6 +18,8 @@ RUN ./install-coq.sh
 COPY ./install-go.sh .
 RUN ./install-go.sh
 
+RUN rm install-*.sh
+
 RUN sudo mkdir /workspaces && \
   sudo chown -R vscode:vscode /workspaces
 

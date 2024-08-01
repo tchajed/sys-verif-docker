@@ -6,6 +6,7 @@ OCAML_VERSION=5.2.0
 
 wget 'https://raw.githubusercontent.com/ocaml/opam/master/shell/install.sh'
 yes '' | bash install.sh --fresh
+rm install.sh
 
 # disable sandboxing since the container is enough isolation, and further
 # sandboxing doesn't work in a container anyway
