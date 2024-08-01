@@ -8,6 +8,6 @@ eval $(opam env --switch=ocaml-4.14-flambda)
 # coq system dependencies
 apt-get install -y libgmp-dev pkg-config
 
-opam install -y coq
+opam install -y coq vscoq-language-server
 # shellcheck disable=SC2016
 echo 'eval $(opam env)' >>~/.profile
