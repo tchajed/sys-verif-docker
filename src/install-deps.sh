@@ -10,10 +10,10 @@ DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
 dpkg-reconfigure --frontend noninteractive tzdata
 
 # opam dependencies
-apt-get install -y wget patch unzip bzip2 bubblewrap gcc make
+apt-get install -y wget patch unzip bzip2 gcc make
 
 # coq dependencies
 apt-get install -y libgmp-dev pkg-config
 
 # other dependencies
-apt-get install -y sudo git python3 vim-nox zsh
+apt-get install -y sudo git python3 zsh

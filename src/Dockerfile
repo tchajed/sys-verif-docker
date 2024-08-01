@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM debian:12-slim
 
 COPY ./install-deps.sh .
 RUN ./install-deps.sh
