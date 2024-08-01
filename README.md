@@ -26,3 +26,11 @@ docker push tchajed/sys-verif
 ## Deploying to students
 
 Copy `.devcontainer` and `.vscode` to students' assignments repo.
+
+## What's in the container?
+
+- Debian 12 slim
+- OCaml 5.2.0
+- Coq 8.19.2
+- vscoq-language-server
+- Goose
