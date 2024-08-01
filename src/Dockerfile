@@ -16,3 +16,6 @@ COPY ./install-go.sh .
 RUN ./install-go.sh
 
 RUN apt-get clean -y
+
+RUN useradd --create-home --user-group user --password "" && \
+  echo "user ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
