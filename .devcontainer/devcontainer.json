@@ -1,5 +1,6 @@
 {
-  "image": "tchajed/coq-course:latest",
+  "image": "tchajed/sys-verif:latest",
+  "remoteUser": "vscode",
   "customizations": {
     "vscode": {
       "extensions": [

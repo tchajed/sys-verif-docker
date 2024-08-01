@@ -17,5 +17,5 @@ RUN ./install-go.sh
 
 RUN apt-get clean -y
 
-RUN useradd --create-home --user-group user --password "" && \
-  echo "user ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
+RUN useradd --create-home --user-group vscode --password "" && \
+  echo "vscode ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
