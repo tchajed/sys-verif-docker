@@ -5,7 +5,7 @@
 	"recommendations": [
 		"maximedenes.vscoq",
 		"mr-konn.generic-input-method",
-		"ms-vscode.makefile-tools",
+		"ms-vscode.makefile-tools"
 	],
 	// List of extensions recommended by VS Code that should not be recommended for users of this workspace.
 	"unwantedRecommendations": []

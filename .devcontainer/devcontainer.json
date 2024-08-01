@@ -7,7 +7,7 @@
       "extensions": [
         "maximedenes.vscoq",
         "mr-konn.generic-input-method",
-        "ms-vscode.makefile-tools",
+        "ms-vscode.makefile-tools"
       ],
       "settings": {
         "files.exclude": {
@@ -16,7 +16,8 @@
           "**/*.vo": true,
           "**/*.vos": true,
           "**/*.vok": true,
-          "**/.*.cache": true
+          "**/.*.cache": true,
+          "**/.coqdeps.d": true
         },
         "coq.loadCoqProject": true,
         "coq.coqProjectRoot": ".",
