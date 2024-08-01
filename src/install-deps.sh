@@ -3,13 +3,17 @@
 set -e
 
 apt-get update -y
+apt-get upgrade -y
 
 ln -fs /usr/share/zoneinfo/America/Chicago /etc/localtime
 DEBIAN_FRONTEND=noninteractive apt-get install -y tzdata
 dpkg-reconfigure --frontend noninteractive tzdata
 
-# install opam dependencies
-apt-get install -y wget gcc make patch unzip bzip2 bubblewrap
-apt-get install -y git python3 vim
+# opam dependencies
+apt-get install -y wget patch unzip bzip2 bubblewrap gcc make
 
+# coq dependencies
 apt-get install -y libgmp-dev pkg-config
+
+# other dependencies
+apt-get install -y sudo git python3 vim-nox zsh

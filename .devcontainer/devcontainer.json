@@ -1,11 +1,13 @@
 {
   "image": "tchajed/sys-verif:latest",
   "remoteUser": "vscode",
+  "containerUser": "vscode",
   "customizations": {
     "vscode": {
       "extensions": [
         "maximedenes.vscoq",
-        "mr-konn.generic-input-method"
+        "mr-konn.generic-input-method",
+        "ms-vscode.makefile-tools",
       ],
       "settings": {
         "files.exclude": {
