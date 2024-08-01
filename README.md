@@ -14,9 +14,9 @@ Install [VS Code](https://code.visualstudio.com).
 Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers):
 
 - **Option 1:** [install from within VS Code](vscode:extension/ms-vscode-remote.remote-containers)
-- **Option 2, command line install**: `code --install-extension ms-vscode-remote.remote-containers`.
+- **Option 2, command line install:** run `code --install-extension ms-vscode-remote.remote-containers`.
 
-The most important VS Code feature to learn is the [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette), accessed from View > Command Palette. The shortcut is worth learning (ctrl-shift-p, cmd-shift-p on macOS). The command palette gives search access to most editor functionality, and also shows the shortcuts if you want to learn them.
+The most important VS Code feature to learn is the [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette), accessed from View > Command Palette. The shortcut is worth learning (ctrl-shift-p, cmd-shift-p on macOS). The command palette gives search access to most editor functionality and shows keyboard shortcuts if you want to learn them.
 
 ## What's in the container?
 
