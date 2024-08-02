@@ -12,4 +12,13 @@ rm install.sh
 # sandboxing doesn't work in a container anyway
 opam init -y --bare --disable-sandboxing
 opam switch create -y default ocaml-variants.${OCAML_VERSION}+options ocaml-option-flambda
+
+# shellcheck disable=SC2016
+echo 'eval $(opam env)' >>~/.profile
+
+# shellcheck disable=SC2046
+eval $(opam env --switch=default)
+
+opam install -y -j 1 dune
+
 opam clean --logs --all-switches --download-cache --repo-cache --untracked
