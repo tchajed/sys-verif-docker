@@ -12,6 +12,9 @@ WORKDIR /home/vscode
 COPY ./install-ocaml.sh .
 RUN ./install-ocaml.sh
 
+COPY ./install-dune.sh .
+RUN ./install-dune.sh
+
 COPY ./install-coq.sh .
 RUN ./install-coq.sh
 
