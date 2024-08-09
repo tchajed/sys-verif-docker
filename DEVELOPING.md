@@ -14,3 +14,13 @@ docker push tchajed/sys-verif
 ## Deploying to students
 
 Copy `.devcontainer` and `.vscode` to students' assignments repo.
+
+## OCaml version to use
+
+> [!CAUTION]
+> Don't use flambda.
+
+A quick benchmark shows flambda does improve performance slightly, but I was
+getting sporadic illegal instruction errors when doing the amd64 build (under
+Docker in Rosetta on arm64). These are not worth it; just use regular OCaml.
+It's fine to use OCaml 5.2.* or 4.14.*.
