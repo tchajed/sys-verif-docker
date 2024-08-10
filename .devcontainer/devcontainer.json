@@ -1,0 +1,12 @@
+{
+  "image": "tchajed/sys-verif:latest",
+  "remoteUser": "vscode",
+  "containerUser": "vscode",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "maximedenes.vscoq"
+      ]
+    }
+  }
+}
