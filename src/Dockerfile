@@ -3,10 +3,11 @@ FROM debian:12-slim
 COPY ./install-deps.sh .
 RUN ./install-deps.sh
 
-RUN useradd --create-home --user-group vscode --password "" --shell /usr/bin/zsh && \
+RUN useradd --create-home --uid 1000 --user-group vscode \
+  --password "" --shell /usr/bin/zsh && \
   echo "vscode ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
-USER vscode
+USER vscode:vscode
 WORKDIR /home/vscode
 
 COPY ./install-ocaml.sh .
