@@ -2,7 +2,7 @@
 
 set -e
 
-GO_VERSION=1.22.5
+GO_VERSION=1.22.6
 
 arch="amd64"
 if [ "$(uname -m)" = "arm64" ]; then
@@ -14,6 +14,7 @@ sudo tar -C /usr/local -xzf go.tar.gz
 rm go.tar.gz
 
 # shellcheck disable=SC2016
-echo 'export PATH=$PATH:/usr/local/go/bin' >>~/.profile
+echo 'export PATH=$HOME/go/bin:/usr/local/go/bin:$PATH' >>~/.profile
 
 /usr/local/go/bin/go install github.com/goose-lang/goose/cmd/goose@latest
+~/go/bin/goose -help
