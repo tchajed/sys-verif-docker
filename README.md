@@ -22,7 +22,7 @@ The most important VS Code feature to learn is the [Command Palette](https://cod
 
 - Debian 12 slim
 - OCaml 5.2.0
-- Coq 8.19.2
-- vscoq-language-server 2.1.7
-- Go 1.22
+- Coq 8.20.0
+- vscoq-language-server 2.2.1
+- Go 1.23
 - Goose
