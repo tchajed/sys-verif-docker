@@ -2,7 +2,7 @@
 
 Reminders for myself for how to use this.
 
-The container is at version 2.0.0 (find this with `docker image ls
+The container is at version 2.1.0 (find this with `docker image ls
 tchajed/sys-verif`). Using a version number ensures that updates propagate,
 which otherwise requires a `docker pull` as well as rebuilding the cached
 devcontainer.
@@ -11,7 +11,7 @@ devcontainer.
 
 Builds can take 10-20min and pushing can take 20min.
 
-Choose the next version number in the below script.
+Remember to bump the version number in the below script.
 
 ```sh
 docker buildx build -t tchajed/sys-verif:latest src --platform linux/arm64,linux/amd64
