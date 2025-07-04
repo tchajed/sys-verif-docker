@@ -1,8 +1,8 @@
-# Coq docker container
+# Rocq docker container
 
-Docker container for courses using Coq. This setup was created for CS 839: Systems Verification, taught in Fall 2024 at UW-Madison.
+Docker container for courses using the Rocq Prover. This setup was created for CS 839: Systems Verification, taught in Fall 2024 and Fall 2025 at UW-Madison.
 
-The setup is intended to make it easy to get started with Coq using VS Code with
+The setup is intended to make it easy to get started with Rocq using VS Code with
 a prepared Dev Container.
 
 ## Using the container
@@ -21,8 +21,8 @@ The most important VS Code feature to learn is the [Command Palette](https://cod
 ## What's in the container?
 
 - Debian 12 slim
-- OCaml 5.2.0
-- Coq 8.20.1
+- OCaml 4.14.2
+- Rocq 9.0
 - vscoq-language-server 2.2.3
-- Go 1.23
+- Go 1.24
 - Goose
