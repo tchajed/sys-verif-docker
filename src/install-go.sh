@@ -2,7 +2,7 @@
 
 set -e
 
-GO_VERSION=1.23.5
+GO_VERSION=1.24.4
 
 arch="amd64"
 if [ "$(uname -m)" = "arm64" ]; then
