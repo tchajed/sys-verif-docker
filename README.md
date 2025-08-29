@@ -20,7 +20,7 @@ The most important VS Code feature to learn is the [Command Palette](https://cod
 
 ## What's in the container?
 
-- Debian 12 slim
+- Debian 13 slim
 - OCaml 4.14.2
 - Rocq 9.0
 - vscoq-language-server 2.2.6

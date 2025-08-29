@@ -1,4 +1,4 @@
-FROM debian:12-slim
+FROM debian:13-slim
 
 COPY ./install-deps.sh .
 RUN ./install-deps.sh
