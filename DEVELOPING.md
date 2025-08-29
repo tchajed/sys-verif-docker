@@ -15,7 +15,7 @@ Remember to bump the version number in the below script.
 
 ```sh
 docker buildx build -t tchajed/sys-verif:latest src --platform linux/arm64,linux/amd64
-docker tag tchajed/sys-verif:latest v2.3.0
+docker tag tchajed/sys-verif:latest tchajed/sys-verif:v2.3.0
 docker push --all-tags tchajed/sys-verif
 ```
 
