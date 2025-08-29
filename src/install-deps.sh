@@ -15,5 +15,5 @@ apt-get install -y wget patch unzip bzip2 gcc make
 # coq dependencies
 apt-get install -y libgmp-dev pkg-config
 
-# other dependencies
-apt-get install -y sudo git python3 zsh
+# other dependencies (vim is just for use in terminal)
+apt-get install -y sudo git python3 zsh neovim
