@@ -24,5 +24,6 @@ The most important VS Code feature to learn is the [Command Palette](https://cod
 - OCaml 4.14.2
 - Rocq 9.0
 - vscoq-language-server 2.2.6
+- coq-lsp 0.2.3+9.0
 - Go 1.24
 - Goose (`new` branch)
