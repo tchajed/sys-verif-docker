@@ -12,7 +12,7 @@ dpkg-reconfigure --frontend noninteractive tzdata
 # opam dependencies
 apt-get install -y wget patch unzip bzip2 gcc make
 
-# coq dependencies
+# rocq dependencies
 apt-get install -y libgmp-dev pkg-config
 
 # other dependencies (vim is just for use in terminal)

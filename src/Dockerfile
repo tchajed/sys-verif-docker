@@ -13,8 +13,8 @@ WORKDIR /home/vscode
 COPY ./install-ocaml.sh .
 RUN ./install-ocaml.sh
 
-COPY ./install-coq.sh .
-RUN ./install-coq.sh
+COPY ./install-rocq.sh .
+RUN ./install-rocq.sh
 
 COPY ./install-go.sh .
 RUN ./install-go.sh
